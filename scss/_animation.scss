@@ -1,0 +1,42 @@
+
+
+@mixin animation($name) 
+{
+    animation-name: $name;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+  
+  // Keyframe Move in left
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+  
+    80% {
+      transform: translateX(15px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  // Keyframe Move In Right
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+  
+    80% {
+      transform: translateX(-15px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
