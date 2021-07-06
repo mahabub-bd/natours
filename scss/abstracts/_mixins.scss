@@ -1,0 +1,17 @@
+@mixin animation($name,$duration,$timing) 
+{
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: $timing;
+  }
+
+
+  @mixin clearfix {
+    &::after{
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+
+  
