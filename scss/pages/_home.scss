@@ -14,9 +14,7 @@
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
-
   transform: skewY(-7deg);
-
   & > * {
     transform: skewY(7deg);
   }
@@ -32,7 +30,6 @@
   position: relative;
 }
 .section-book {
-  
   padding: 15rem 0;
   background-image: linear-gradient(
     to right bottom,
@@ -51,7 +48,7 @@
     height: 50rem;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
-  
+
     &__form {
       width: 50%;
       padding: 6rem;
